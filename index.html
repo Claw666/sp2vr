@@ -17,6 +17,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
   <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/idle-timer.min.js"></script>
   <script defer src="assets/js/fontawesome-all.js"></script>
   <script src="assets/js/ajax-load.js"></script>
   <script src="assets/js/bus.js"></script>
@@ -59,9 +60,6 @@
     <div style="clear: both;"></div>
     <div id="bodyContainer">
       <div class="row">
-        <div class="row_title">
-          <p>COMPANIES</p>
-        </div>
         <div class="searchbar">
           <div class="col s12">
             <button class="fil-cat blue search-btn waves-effect waves-light" id="btn-a-g">A - E</button>
@@ -2302,7 +2300,23 @@
   </div>
   <!--Import jQuery before materialize.js-->
 
+  <script type="text/javascript">
+  (function ($) {
+      
+    $( document ).on( "idle.idleTimer", function(event, elem, obj){
 
+      if(!$('#bodyContainer').has('.home').length ) {
+        $('#bodyContainer').load('home.html');
+      }
+    });
+    
+    $( document ).on( "active.idleTimer", function(event, elem, obj, triggerevent){
+    });
+    
+    $.idleTimer(20000);
+    
+})(jQuery);
+</script>
   <script src="assets/js/clock.js"></script>
 </body>
 </html>

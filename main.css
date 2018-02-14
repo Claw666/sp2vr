@@ -45,12 +45,12 @@ body {
 }
 
 .time__clock {
-  font-size: 8vw;
+  font-size: 6vw;
   font-weight: 200;
 }
 
 .time__date {
-  font-size: 1.9vw;
+  font-size: 1.3vw;
 }
 
 .equal-col {
@@ -76,7 +76,7 @@ body {
   left: auto;
   right: auto;
   text-align: center;
-  height: 80px !important;
+  height: 90px !important;
 }
 
 .comp-info {
@@ -131,7 +131,7 @@ body {
 }
 
 .menu-col svg{
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   padding: 20px;
   border-radius: 15px;
   width: 100px !important;
@@ -148,9 +148,7 @@ body {
   column-count: 5;
 }
 
-.searchbar .col {
-  min-height: 64px !important;
-}
+
 
 .menubar {
   column-count: 4;
