@@ -2301,11 +2301,10 @@
   <!--Import jQuery before materialize.js-->
 
   <script type="text/javascript">
-  (function ($) {
       
-    $( document ).on( "idle.idleTimer", function(event, elem, obj){
+    $(document ).on( "idle.idleTimer", function(event, elem, obj){
 
-      if(!$('#bodyContainer').has('.home').length ) {
+      if(!$('#bodyContainer').has('.home').length || !$('.cat-container').has('.cat-a-g').length ) {
         $('#bodyContainer').load('home.html');
       }
     });
@@ -2315,7 +2314,6 @@
     
     $.idleTimer(20000);
     
-})(jQuery);
 </script>
   <script src="assets/js/clock.js"></script>
 </body>
