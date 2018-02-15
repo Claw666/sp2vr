@@ -4738,7 +4738,7 @@ video.responsive-video {
   }
 
   .card .card-title {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
   }
 
@@ -4772,7 +4772,7 @@ video.responsive-video {
   }
 
   .card.small {
-    height: 220px;
+    max-height: 250px;
   }
 
   .card.medium {

@@ -76,7 +76,7 @@ body {
   left: auto;
   right: auto;
   text-align: center;
-  height: 90px !important;
+  height: 70px !important;
 }
 
 .comp-info {
@@ -318,5 +318,8 @@ body {
 }
 
 .emb_rm_booking {
-  height: 150vh;
+  height: 100vw;
+  width: 200%;
+  transform: scale(0.5);
+  transform-origin: 0 0;
 }

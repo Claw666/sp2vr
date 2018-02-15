@@ -1,9 +1,3 @@
-$(document).ready(function(){
- $(document).bind("contextmenu",function(e){
-   return false;
- });
-});
-
 $(document).on("click", '#home', function(event) { 
   $('#bodyContainer').load('home.html');
 });
