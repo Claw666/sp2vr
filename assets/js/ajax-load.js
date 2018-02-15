@@ -40,18 +40,18 @@ $(document).on("click", '#btn-0-9', function(event) {
 
 
 $(document).on("click", '.cat-a-g', function(event) { 
-  $('#ajaxContainer').load('assets/companies/'+ $(this).attr('id')+'.html');
+      $('#ajaxContainer').load('assets/companies/'+ $(this).attr('id')+'.html');
 });
 
 $(document).on("click", '.cat-h-n', function(event) { 
-  $('#ajaxContainer').load('assets/companies/'+ $(this).attr('id')+'.html');
+      $('#ajaxContainer').load('assets/companies/'+ $(this).attr('id')+'.html');
 });
 $(document).on("click", '.cat-o-t', function(event) { 
-  $('#ajaxContainer').load('assets/companies/'+ $(this).attr('id')+'.html');
+      $('#ajaxContainer').load('assets/companies/'+ $(this).attr('id')+'.html');
 });
 $(document).on("click", '.cat-u-z', function(event) { 
-  $('#ajaxContainer').load('assets/companies/'+ $(this).attr('id')+'.html');
+      $('#ajaxContainer').load('assets/companies/'+ $(this).attr('id')+'.html');
 });
 $(document).on("click", '.cat-0-9', function(event) { 
-  $('#ajaxContainer').load('assets/companies/'+ $(this).attr('id')+'.html');
+      $('#ajaxContainer').load('assets/companies/'+ $(this).attr('id')+'.html');
 });
